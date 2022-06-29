@@ -51,11 +51,11 @@
 .content {
   margin: 4rem;
 }
-.content .title {
+.content .text .title {
   font-weight: bold;
   font-size: 18px;
 }
-.content .description {
+.content .text .description {
   margin: 10px;
   width: 200px;
 }
