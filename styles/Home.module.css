@@ -52,12 +52,10 @@
   margin: 4rem;
 }
 .content .text .title {
+  font-family: 'Fira Code', monospace;
   font-weight: bold;
-  font-size: 18px;
-}
-.content .text .description {
-  margin: 10px;
-  width: 200px;
+  font-size: 28px;
+  margin-bottom: 1rem;
 }
 
 .buttonWhats {

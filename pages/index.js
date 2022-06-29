@@ -16,11 +16,11 @@ export default function Home() {
           <div className={styles.logotext}>Planet House Móveis Planejados</div>
           </div>
         <div className={styles.tools}>
-          <a href="#"><div >Home</div></a>
-          <a href="#"><div>Sobre</div></a>
-          <a href="#"><div>Localização</div></a>
+          <a href="."><div>Empresa</div></a>
+          <a href="#"><div>Planejados</div></a>
+          <a href="#"><div>Escritorio</div></a>
           <a href="https://wa.me/5511932123063">
-            <div className={styles.contact}>11 932123063</div>
+            <div className={styles.contact}>Contato</div>
           </a>
         </div>
       </div>
@@ -29,8 +29,14 @@ export default function Home() {
       </div>
       <div className={styles.content}>
         <div className={styles.text}>
-          <div className={styles.title}>Moveis Planejados</div>
-          <div className={styles.description}>Trabalhamos com móveis planejados, e na otimização do seu espaço, para o melhor aproveitamento, unindo estetica e glamour num mesmo ambiente</div>
+          <div className={styles.title}>Conheça a Empresa Planet House</div>
+          <div className={styles.description}>
+          Somos uma Empresa especialista em conforto e bem-estar que possui mais de <strong>10 anos de experiência no setor.</strong>
+          </div>
+          <div className={styles.description}>
+          Trabalhamos com móveis planejados, e na otimização do seu 
+          espaço, para o melhor aproveitamento, unindo estetica e glamour num mesmo ambiente
+          </div>
         </div>
         <div className={styles.images}></div>
         <div className={styles.buttonWhats}>
