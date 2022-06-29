@@ -58,17 +58,20 @@
   margin-bottom: 1rem;
 }
 .container {
+  background: rgba(0, 0, 0, 0.1);
   display: flex;
 }
 .warranty {
+  width: 200px;
   padding: 3rem;
 }
 .container .warranty .title {
+  font-size: 21px;
+  padding: 10px;
   text-align: center;
   font-weight: bold;
 }
 .container .warranty .description {
-  width: 200px;
   text-align: center;
 }
 
