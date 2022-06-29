@@ -1,19 +1,24 @@
 .navbar {
-  height: 120px;
+  height: 110px;
   background: black;
   color: white;
   display: flex;
   align-items: center;
   padding: 0 20px;
-  justify-content: flex-end;
 }
 
 .navbar a {
   margin: 20px;
 }
 .navbar .logo {
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.navbar .tools {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
 }
