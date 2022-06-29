@@ -57,6 +57,20 @@
   font-size: 28px;
   margin-bottom: 1rem;
 }
+.container {
+  display: flex;
+}
+.warranty {
+  padding: 3rem;
+}
+.container .warranty .title {
+  text-align: center;
+  font-weight: bold;
+}
+.container .warranty .description {
+  width: 200px;
+  text-align: center;
+}
 
 .buttonWhats {
   position: fixed;
