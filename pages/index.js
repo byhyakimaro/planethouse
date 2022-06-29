@@ -38,10 +38,15 @@ export default function Home() {
           espaço, para o melhor aproveitamento, unindo estetica e glamour num mesmo ambiente
           </div>
         </div>
-        <div className={styles.images}></div>
-        <div className={styles.buttonWhats}>
-          <a href="https://wa.me/5511932123063"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
+        <div className={styles.warranty}>
+          <div className={styles.title}>Garantia de 5 Anos</div>
+          <div className={styles.description}>
+            Nossos móveis planejados possuem 5 anos de garantia para seu conforto e segurança em comprar conosco.
+          </div>
         </div>
+      </div>
+      <div className={styles.buttonWhats}>
+        <a href="https://wa.me/5511932123063"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
       </div>
     </>
   )
