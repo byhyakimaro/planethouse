@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <div className={styles.images}></div>
         <div className={styles.buttonWhats}>
-          <a href="#"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
+          <a href="https://wa.me/5511932123063"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
         </div>
       </div>
     </>
