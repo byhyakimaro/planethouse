@@ -74,6 +74,9 @@
   padding: 10px;
   font-weight: bold;
 }
+.container .warranty .description {
+  text-align: center;
+}
 
 .buttonWhats {
   position: fixed;
