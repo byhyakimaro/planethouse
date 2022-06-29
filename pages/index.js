@@ -54,7 +54,17 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+        <div className={styles.business}>
+          <div className={styles.title}>Conheça Nossa Diversidade</div>
+          <div className={styles.description}>
+            Nossos projetos são milimetricamente projetados para o seu ambiente, utilizamos desenhos 3D de
+            ultima geração para demonstrar para nossos clientes todo o processo, nossa fábrica da possui 
+            mais de <strong>10 anos de experiência</strong> no mercado moveleiro e produz móveis planejados 
+            <strong> residenciais e corporativos</strong> para todos os ambientes como closets, dormitórios, 
+            cozinhas, áreas de serviços, banheiros, home offices e escritórios.
+          </div>
+          <img src="models/cozinha.png" width="240"></img>
+        </div>
       </div>
       <div className={styles.buttonWhats}>
         <a href="https://wa.me/5511932123063"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>

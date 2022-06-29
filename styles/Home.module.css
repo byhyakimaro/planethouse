@@ -78,6 +78,18 @@
   font-size: 14px;
   text-align: center;
 }
+.business {
+  margin: 4rem;
+}
+.business .title {
+  font-family: 'Fira Code', monospace;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+.business .description {
+  width: 40rem;
+}
 
 .buttonWhats {
   position: fixed;
