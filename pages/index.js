@@ -63,7 +63,9 @@ export default function Home() {
             <strong> residenciais e corporativos</strong> para todos os ambientes como closets, dormitórios, 
             cozinhas, áreas de serviços, banheiros, home offices e escritórios.
           </div>
-          <img src="models/cozinha.png" width="240"></img>
+          <div className={styles.images}>
+            <img src="models/cozinha.png"></img>
+          </div>
         </div>
       </div>
       <div className={styles.buttonWhats}>

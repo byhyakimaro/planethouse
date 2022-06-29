@@ -90,7 +90,12 @@
 .business .description {
   width: 40rem;
 }
-
+.business .images {
+  margin: 20px;
+}
+.business .images img {
+  width: 240px;
+}
 .buttonWhats {
   position: fixed;
   bottom: 1.5rem;
