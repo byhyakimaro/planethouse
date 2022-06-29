@@ -33,6 +33,9 @@ export default function Home() {
           <div className={styles.description}>Trabalhamos com móveis planejados, e na otimização do seu espaço, para o melhor aproveitamento, unindo estetica e glamour num mesmo ambiente</div>
         </div>
         <div className={styles.images}></div>
+        <div className={styles.buttonWhats}>
+          <a href="#"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
+        </div>
       </div>
     </>
   )

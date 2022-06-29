@@ -59,3 +59,9 @@
   margin: 10px;
   width: 200px;
 }
+
+.buttonWhats {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
