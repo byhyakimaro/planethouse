@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <div className={styles.content}>
         <div className={styles.title}>Moveis Planejados</div>
-        <div className={styles.description}>Trabalhamos com móveis planejados, e na otimização do seu espaço, para o melhor aproveitamento, unindo estetica e glamour num mesmo ambiente. Wats</div>
+        <div className={styles.description}>Trabalhamos com móveis planejados, e na otimização do seu espaço, para o melhor aproveitamento, unindo estetica e glamour num mesmo ambiente</div>
       </div>
     </>
   )
