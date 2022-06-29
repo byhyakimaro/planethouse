@@ -1,16 +1,25 @@
 .navbar {
+  width: 100%;
   height: 110px;
   background: black;
   color: white;
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  position: fixed;
 }
 
 .navbar a {
+  font-size: 18px;
   margin: 20px;
 }
+.navbar .contact {
+  color: #4dc65a;
+}
+.navbar .contact:hover {
+  transform: scale(1.01);
+}
 .navbar .logo {
+  margin-left: 20px;
   width: 50%;
   display: flex;
   justify-content: flex-start;
@@ -18,7 +27,9 @@
 }
 
 .navbar .tools {
+  margin-right: 20px;
   display: flex;
   justify-content: flex-end;
   width: 50%;
 }
+
