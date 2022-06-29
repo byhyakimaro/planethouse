@@ -48,7 +48,7 @@
   left: 50%;
   bottom: 0;
 }
-.content {
+.content .text {
   margin: 4rem;
 }
 .content .text .title {
@@ -58,6 +58,7 @@
   margin-bottom: 1rem;
 }
 .container {
+  margin-top: 3rem;
   background: rgba(0, 0, 0, 0.1);
   display: flex;
 }
