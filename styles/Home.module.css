@@ -63,17 +63,16 @@
   display: flex;
 }
 .warranty {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 200px;
   padding: 3rem;
 }
 .container .warranty .title {
   font-size: 21px;
   padding: 10px;
-  text-align: center;
   font-weight: bold;
-}
-.container .warranty .description {
-  text-align: center;
 }
 
 .buttonWhats {
