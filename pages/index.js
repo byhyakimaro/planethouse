@@ -88,20 +88,20 @@ export default function Home() {
             <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fplanethousemoveisplanejados%2Fvideos%2F521239651983527%2F&show_text=false&width=476&t=0" width="400" height="240"></iframe>
             <img src="models/closet.png" width="240" height="240"></img>
           </div>
-          <a href="https://wa.me/5511932123063" className={styles.budget}>
+          <a href="https://wa.me/5511932123063" className={styles.budget} target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m6 18-1.417-1.417L11.167 10 4.583 3.417 6 2l8 8Z"/></svg>
             <div>Solicite seu orçamento pelo WhastApp</div>
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8 18-8-8 8-8 1.417 1.417L2.833 10l6.584 6.583Z"/></svg>
           </a>
           <div className={styles.network}>
             <div className={styles.title}>conheça nossas redes sociais</div>
-            <a href="#">
+            <a href="https://www.facebook.com/planethousemoveisplanejados" target="_blank" rel="noreferrer">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/2560px-Facebook_Logo_%282019%29.svg.png"></img>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/planethousemoveisplanejados" target="_blank" rel="noreferrer">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"></img>
             </a>
-            <a href="#">
+            <a href="https://twitter.com/PlanetMoveis" target="_blank" rel="noreferrer">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Twitter_logo.svg/1280px-Twitter_logo.svg.png"></img>
             </a>
           </div>
@@ -142,12 +142,12 @@ export default function Home() {
         <div className={styles.details}>
           <div className={styles.title}>
           © 2022 Planet House - Móveis Planejados. Todos os direitos reservados. Desenvolvido por 
-          <a href="https://www.facebook.com/knownetworks"> KnowNetworks</a>.
+          <a href="https://www.facebook.com/knownetworks" target="_blank" rel="noreferrer"> KnowNetworks</a>.
           </div>
         </div>
       </footer>
       <div className={styles.buttonWhats}>
-        <a href="https://wa.me/5511932123063"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
+        <a href="https://wa.me/5511932123063" target="_blank" rel="noreferrer"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
       </div>
     </>
   )
