@@ -114,6 +114,8 @@
   color: black;
 }
 .budget div:hover {
+  color: white;
+  background: rgb(37, 80, 58);
   transform: scale(1.1);
   transition: .8s;
 }
