@@ -66,9 +66,10 @@ export default function Home() {
           <div className={styles.images}>
             <img src="models/cozinha.png" width="240" height="240"></img>
             <img src="models/sala.png" width="380" height="240"></img>
-            <video width="400" height="240" controls autoPlay>
-              <source src="models/quarto.mp4" type="video/mp4"/>
-            </video>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fplanethousemoveisplanejados%2Fvideos%2F947463269072240%2F&show_text=false&width=267&t=0" width="400" height="240"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fplanethousemoveisplanejados%2Fvideos%2F266554894820795%2F&show_text=false&width=261&t=0" width="400" height="240"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fplanethousemoveisplanejados%2Fvideos%2F521239651983527%2F&show_text=false&width=476&t=0" width="400" height="240"></iframe>
+            <img src="models/closet.png" width="240" height="290"></img>
           </div>
         </div>
       </div>

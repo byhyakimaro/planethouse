@@ -95,7 +95,7 @@
   flex-wrap: wrap;
   margin: 20px;
 }
-.business .images img, .business .images video {
+.business .images img, .business .images iframe {
   padding: 10px;
 }
 
