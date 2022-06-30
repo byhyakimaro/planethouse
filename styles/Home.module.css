@@ -98,6 +98,13 @@
 .business .images img, .business .images iframe {
   padding: 10px;
 }
+.budget {
+  text-align: center;
+  width: 290px;
+  padding: 10px;
+  border: 1px solid #4dc65a;
+  color: black;
+}
 
 .buttonWhats {
   position: fixed;

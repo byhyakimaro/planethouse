@@ -71,6 +71,7 @@ export default function Home() {
             <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fplanethousemoveisplanejados%2Fvideos%2F521239651983527%2F&show_text=false&width=476&t=0" width="400" height="240"></iframe>
             <img src="models/closet.png" width="240" height="240"></img>
           </div>
+          <a href="https://wa.me/5511932123063"><div className={styles.budget}>Venha Fazer seu Orçamento dos Sonhos</div></a>
         </div>
       </div>
       <div className={styles.buttonWhats}>
