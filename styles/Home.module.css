@@ -45,6 +45,7 @@
   bottom: 0;
 }
 .home .homecontent {
+  padding: 0 4rem;
   font-family: 'Fira Code', monospace;
   background: rgba(0, 0, 0, 0.4);
   font-weight: bold;
