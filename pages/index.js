@@ -54,6 +54,22 @@ export default function Home() {
               Nossa equipe especializada vai desenvolver sem custo o projeto que você sonhou, milimetricamente do seu jeito.
             </div>
           </div>
+          <div className={styles.warranty}>
+          <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M25.8 44q-.6 0-1.15-.175-.55-.175-1.05-.675L4.85 24.4q-.5-.5-.675-1.05Q4 22.8 4 22.2V7q0-1.3.85-2.15Q5.7 4 7 4h15.2q.6 0 1.2.175t1.1.675L43.15 23.5q1 1 1 2.225t-1 2.225l-15.2 15.2q-.4.4-.975.625Q26.4 44 25.8 44Zm.1-2.9 15.2-15.2L22.2 7H7v15.2ZM12.25 14.8q1.05 0 1.825-.775.775-.775.775-1.825 0-1.05-.775-1.825Q13.3 9.6 12.25 9.6q-1.05 0-1.825.775-.775.775-.775 1.825 0 1.05.775 1.825.775.775 1.825.775ZM7 7Z"/></svg>
+            <div className={styles.title}>Custo Beneficio</div>
+            <div className={styles.description}>
+            O melhor preço com uma condição especial de pagamento: 
+            Até 12x sem acréscimo com entrada.
+            </div>
+          </div>
+          <div className={styles.warranty}>
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m17.3 45-3.8-6.5-7.55-1.55.85-7.35L2 24l4.8-5.55-.85-7.35 7.55-1.55L17.3 3 24 6.1 30.7 3l3.85 6.55 7.5 1.55-.85 7.35L46 24l-4.8 5.6.85 7.35-7.5 1.55L30.7 45 24 41.9Zm1.35-3.95L24 38.8l5.5 2.25 3.35-5 5.85-1.5-.6-5.95 4.05-4.6-4.05-4.7.6-5.95-5.85-1.4-3.45-5L24 9.2l-5.5-2.25-3.35 5-5.85 1.4.6 5.95L5.85 24l4.05 4.6-.6 6.05 5.85 1.4ZM24 24Zm-2.15 6.65L33.2 19.4l-2.25-2.05-9.1 9-4.75-4.95-2.3 2.25Z"/></svg>
+            <div className={styles.title}>Especialidade no Ramo</div>
+            <div className={styles.description}>
+            Uma Empresa com mais de 10 anos de experiencia, onde
+            garantimos sua satisfação e conforto.
+            </div>
+          </div>
         </div>
         <div className={styles.business} id="business">
           <div className={styles.title}>Conheça Nossa Diversidade</div>

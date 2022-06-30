@@ -67,6 +67,9 @@
   padding: 3rem;
 }
 .container .warranty .title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   font-size: 21px;
   padding: 2rem 0;
   font-weight: bold;
