@@ -110,7 +110,7 @@
   text-align: center;
   width: 290px;
   padding: 10px;
-  border: 1px solid rgba(26, 59, 42, 1);
+  border: 1px solid rgb(37, 80, 58);
   color: black;
 }
 .budget div:hover {
@@ -139,6 +139,19 @@
   bottom: 1.5rem;
   right: 1.5rem;
 }
+footer .logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+footer .details {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem;
+  border-top: 1px solid #fff
+}
+
 @media screen and (max-width: 768px) {
   .home {
     height: 125vh;

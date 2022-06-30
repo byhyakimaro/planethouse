@@ -99,10 +99,17 @@ export default function Home() {
             <img src="https://i.imgur.com/VLAVaIA.png" width="420"></img>
           </div>
         </div>
-        <footer>
-
-        </footer>
       </div>
+      <footer>
+        <div className={styles.logo}>
+          <img src="logo.jpg" width="150"></img>
+        </div>
+        <div className={styles.details}>
+          <div className={styles.title}>
+          © 2022 Planet House - Móveis Planejados. Todos os direitos reservados. Desenvolvido por KnowNetworks.
+          </div>
+        </div>
+      </footer>
       <div className={styles.buttonWhats}>
         <a href="https://wa.me/5511932123063"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
       </div>
