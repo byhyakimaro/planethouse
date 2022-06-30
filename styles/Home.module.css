@@ -36,7 +36,6 @@
 
 .home {
   height: 100vh;
-  transition: 2s;
   background-image: url('../public/home.png');
 }
 .home svg {
@@ -217,8 +216,7 @@ footer .details {
     width: 100vh;
   }
   .home svg {
-    bottom: -20vh;
-    left: 100%;
+    left: 80%;
   }
   .home .homecontent {
     font-size: 22px;
