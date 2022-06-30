@@ -101,3 +101,16 @@
   bottom: 1.5rem;
   right: 1.5rem;
 }
+@media screen and (max-width: 768px) {
+  .home {
+    height: 125vh;
+    width: 100vh;
+  }
+  .home svg {
+    bottom: -20vh;
+    left: 100%;
+  }
+  .content {
+    width: 100vh;
+  }
+}
