@@ -9,6 +9,7 @@
 
 html{ 
   font-family: 'Anek Malayalam', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,4 +18,16 @@ body {
 
 a {
   color: white;
+}
+
+footer {
+  margin-top: 4rem;
+  background: rgba(26, 59, 42, 1);
+  color: white;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
 }

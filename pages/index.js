@@ -4,6 +4,9 @@ import React, { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  useEffect(() => {
+    
+  })
 
   return (
     <>  
@@ -16,8 +19,8 @@ export default function Home() {
           <div className={styles.logotext}>Planet House Móveis Planejados</div>
           </div>
         <div className={styles.tools}>
-          <a href="."><div>Empresa</div></a>
-          <a href="#"><div>Planejados</div></a>
+          <a href="#content"><div>Empresa</div></a>
+          <a href="#business"><div>Planejados</div></a>
           <a href="#"><div>Escritorio</div></a>
           <a href="https://wa.me/5511932123063">
             <div className={styles.contact}>Contato</div>
@@ -27,7 +30,7 @@ export default function Home() {
       <div className={styles.home}>
         <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m24 30.8-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
       </div>
-      <div className={styles.content}>
+      <div className={styles.content} id="content">
         <div className={styles.text}>
           <div className={styles.title}>Conheça a Empresa Planet House</div>
           <div className={styles.description}>
@@ -54,7 +57,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.business}>
+        <div className={styles.business} id="business">
           <div className={styles.title}>Conheça Nossa Diversidade</div>
           <div className={styles.description}>
             Nossos projetos são milimetricamente projetados para o seu ambiente, utilizamos desenhos 3D de
@@ -76,6 +79,28 @@ export default function Home() {
             <div>Venha Fazer seu Orçamento dos Sonhos</div>
           </a>
         </div>
+        <div className={styles.comments}>
+          <div className={styles.title}>Satisfação de Nossos Clientes</div>
+          <div className={styles.description}>
+            <div className={styles.text}>
+              Prezamos Pela Qualidade e Velocidade de Entrega Para <strong>Satisfação de nossos clientes.</strong>
+            </div>
+            <img src="https://i.imgur.com/MgTJnWe.png" width="420"></img>
+            <img src="https://i.imgur.com/TYwQZBj.png" width="420"></img>
+            <img src="https://i.imgur.com/SORpBWV.png" width="220"></img>
+            <img src="https://i.imgur.com/NJwxPSj.png" width="220"></img>
+            <img src="https://i.imgur.com/3uX4a2G.png" width="320"></img>
+            <img src="https://i.imgur.com/SmIanoT.png" width="220"></img>
+            <img src="https://i.imgur.com/qWPSFOp.png" width="220"></img>
+            <img src="https://i.imgur.com/cHiOiyS.png" width="420"></img>
+            <img src="https://i.imgur.com/mcEro05.png" width="580"></img>
+            <img src="https://i.imgur.com/7sVYYbD.png" width="220"></img>
+            <img src="https://i.imgur.com/VLAVaIA.png" width="420"></img>
+          </div>
+        </div>
+        <footer>
+
+        </footer>
       </div>
       <div className={styles.buttonWhats}>
         <a href="https://wa.me/5511932123063"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>

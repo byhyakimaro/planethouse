@@ -110,13 +110,28 @@
   text-align: center;
   width: 290px;
   padding: 10px;
-  border: 1px solid #4dc65a;
+  border: 1px solid rgba(26, 59, 42, 1);
   color: black;
 }
 .budget:hover {
   transform: scale(1.01);
 }
-
+.comments {
+  background: rgba(0, 0, 0, 0.1);
+}
+.comments .title {
+  margin: 20px;
+  font-family: 'Fira Code', monospace;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+.comments .description .text {
+  margin: 20px;
+}
+.comments .description img {
+  margin: 10px;
+}
 .buttonWhats {
   position: fixed;
   bottom: 1.5rem;
