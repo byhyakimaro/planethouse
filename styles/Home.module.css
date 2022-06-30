@@ -12,9 +12,6 @@
   font-size: 18px;
   margin: 20px;
 }
-.navbar .contact {
-  color: #4dc65a;
-}
 .navbar .contact:hover {
   transform: scale(1.01);
 }

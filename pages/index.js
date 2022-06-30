@@ -22,9 +22,7 @@ export default function Home() {
           <a href="#content"><div>Empresa</div></a>
           <a href="#business"><div>Planejados</div></a>
           <a href="#"><div>Escritorio</div></a>
-          <a href="https://wa.me/5511932123063">
-            <div className={styles.contact}>Contato</div>
-          </a>
+          <a href="#contact"><div>Contato</div></a>
         </div>
       </div>
       <div className={styles.home}>
@@ -98,6 +96,9 @@ export default function Home() {
             <img src="https://i.imgur.com/7sVYYbD.png" width="220"></img>
             <img src="https://i.imgur.com/VLAVaIA.png" width="420"></img>
           </div>
+        </div>
+        <div className={styles.contact} id="contact">
+          <div className={styles.title}>Fale Conosco</div>
         </div>
       </div>
       <footer>
