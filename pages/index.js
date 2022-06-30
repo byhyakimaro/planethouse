@@ -77,6 +77,7 @@ export default function Home() {
           <a href="https://wa.me/5511932123063" className={styles.budget}>
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m6 18-1.417-1.417L11.167 10 4.583 3.417 6 2l8 8Z"/></svg>
             <div>Venha Fazer seu Orçamento dos Sonhos</div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8 18-8-8 8-8 1.417 1.417L2.833 10l6.584 6.583Z"/></svg>
           </a>
         </div>
         <div className={styles.comments}>
