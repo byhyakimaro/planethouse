@@ -44,6 +44,16 @@
   left: 50%;
   bottom: 0;
 }
+.home .homecontent {
+  font-family: 'Fira Code', monospace;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .content .text {
   margin: 4rem;
 }
@@ -62,7 +72,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 200px;
   padding: 3rem;
 }
 .container .warranty .title {
