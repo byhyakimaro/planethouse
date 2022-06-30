@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.tools}>
           <a href="#content"><div>Empresa</div></a>
           <a href="#business"><div>Planejados</div></a>
-          <a href="#"><div>Escritorio</div></a>
+          <a href="#"><div>Catalogo</div></a>
           <a href="#contact"><div>Contato</div></a>
         </div>
       </div>
