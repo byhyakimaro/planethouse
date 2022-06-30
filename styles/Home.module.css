@@ -91,11 +91,14 @@
   width: 40rem;
 }
 .business .images {
+  display: flex;
+  flex-wrap: wrap;
   margin: 20px;
 }
-.business .images img {
-  width: 240px;
+.business .images img, .business .images video {
+  padding: 10px;
 }
+
 .buttonWhats {
   position: fixed;
   bottom: 1.5rem;

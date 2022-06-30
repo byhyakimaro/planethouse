@@ -64,7 +64,11 @@ export default function Home() {
             cozinhas, áreas de serviços, banheiros, home offices e escritórios.
           </div>
           <div className={styles.images}>
-            <img src="models/cozinha.png"></img>
+            <img src="models/cozinha.png" width="240" height="240"></img>
+            <img src="models/sala.png" width="380" height="240"></img>
+            <video width="400" height="240" controls >
+              <source src="models/quarto.mp4" type="video/mp4"/>
+            </video>
           </div>
         </div>
       </div>
