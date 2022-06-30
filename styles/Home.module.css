@@ -36,6 +36,7 @@
 
 .home {
   height: 100vh;
+  transition: 2s;
   background-image: url('../public/home.png');
 }
 .home svg {

@@ -4,16 +4,24 @@ import React, { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const handleScroll = () => {
+    if(document.documentElement.scrollTop <= 637) {
+      document.querySelector('#navbar').setAttribute('style', "background-image: url('../public/home.png');")
+    } else {
+      document.querySelector('#navbar').setAttribute('style', "background: rgba(37, 80, 58, 1);")
+    }
+  }
   useEffect(() => {
-
-  })
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  });
 
   return (
     <>  
       <Head>
         <title>Home - Planet House</title>
       </Head>
-      <div className={styles.navbar}>
+      <div className={styles.navbar} id="navbar">
         <div className={styles.logo}>
           <img src="logo.png" width="90"></img>
           <div className={styles.logotext}>Planet House Móveis Planejados</div>
