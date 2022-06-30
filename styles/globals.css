@@ -2,7 +2,7 @@
 * {
   border: 0;
   margin: 0;
-  user-select: none;
+  /* user-select: none; */
   text-decoration: none;
   outline: none;
 }
@@ -13,6 +13,10 @@ html{
 }
 :target {
   scroll-margin-top: 11rem;
+}
+::selection {
+  background: rgb(37, 37, 37);
+  color: #ffffff;
 }
 
 body {
