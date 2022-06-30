@@ -129,7 +129,8 @@ export default function Home() {
         </div>
         <div className={styles.details}>
           <div className={styles.title}>
-          © 2022 Planet House - Móveis Planejados. Todos os direitos reservados. Desenvolvido por KnowNetworks.
+          © 2022 Planet House - Móveis Planejados. Todos os direitos reservados. Desenvolvido por 
+          <a href="https://www.facebook.com/knownetworks"> KnowNetworks</a>.
           </div>
         </div>
       </footer>
