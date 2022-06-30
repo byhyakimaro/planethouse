@@ -99,11 +99,22 @@
   padding: 10px;
 }
 .budget {
+  align-items: center;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.budget div {
+  margin: 0 10px;
+  border-radius: 4px;
   text-align: center;
   width: 290px;
   padding: 10px;
   border: 1px solid #4dc65a;
   color: black;
+}
+.budget:hover {
+  transform: scale(1.01);
 }
 
 .buttonWhats {
