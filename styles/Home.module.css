@@ -152,11 +152,14 @@
   justify-content: center;
   width: 100%;
 }
-
 .buttonWhats {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
+}
+.buttonWhats:hover {
+  transform: scale(1.6);
+  transition: .3s;
 }
 footer .logo {
   display: flex;
