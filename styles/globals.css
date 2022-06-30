@@ -35,3 +35,17 @@ footer {
   position: relative;
   bottom: 0;
 }
+
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, .9);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(26, 59, 42, 1);    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+  border: 3px solid rgba(26, 59, 42, 1);  /* creates padding around scroll thumb */
+}
