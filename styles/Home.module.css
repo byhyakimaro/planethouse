@@ -79,7 +79,7 @@
   text-align: center;
 }
 .business {
-  margin: 4rem;
+  margin: 2rem;
 }
 .business .title {
   font-family: 'Fira Code', monospace;
@@ -148,7 +148,7 @@ footer .details {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 0.5rem;
+  padding: 2rem;
   border-top: 1px solid #fff
 }
 
