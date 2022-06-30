@@ -11,6 +11,9 @@ html{
   font-family: 'Anek Malayalam', sans-serif;
   scroll-behavior: smooth;
 }
+:target {
+  scroll-margin-top: 11rem;
+}
 
 body {
   background: #f2f2f2;
