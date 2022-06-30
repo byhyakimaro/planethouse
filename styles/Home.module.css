@@ -117,7 +117,7 @@
   transform: scale(1.01);
 }
 .comments {
-  background: rgba(0, 0, 0, 0.1);
+  
 }
 .comments .title {
   margin: 20px;
@@ -126,8 +126,11 @@
   font-weight: bold;
   padding: 2rem 0;
 }
-.comments .description .text {
+.comments .text {
   margin: 20px;
+}
+.comments .description {
+  background: rgba(0, 0, 0, 0.1);
 }
 .comments .description img {
   margin: 10px;

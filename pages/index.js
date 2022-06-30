@@ -81,10 +81,10 @@ export default function Home() {
         </div>
         <div className={styles.comments}>
           <div className={styles.title}>Satisfação de Nossos Clientes</div>
+          <div className={styles.text}>
+            Prezamos Pela Qualidade e Velocidade de Entrega Para <strong>Satisfação de nossos clientes.</strong>
+          </div>
           <div className={styles.description}>
-            <div className={styles.text}>
-              Prezamos Pela Qualidade e Velocidade de Entrega Para <strong>Satisfação de nossos clientes.</strong>
-            </div>
             <img src="https://i.imgur.com/MgTJnWe.png" width="420"></img>
             <img src="https://i.imgur.com/TYwQZBj.png" width="420"></img>
             <img src="https://i.imgur.com/SORpBWV.png" width="220"></img>
