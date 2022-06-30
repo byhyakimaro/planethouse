@@ -98,7 +98,13 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.contact} id="contact">
-          <div className={styles.title}>Fale Conosco</div>
+          <div className={styles.title}>Converse diretamente com nossa fabricante</div>
+          <div className={styles.description}>
+            <strong>Caieiras/Perus - SP</strong>
+          </div>
+          <div className={styles.description}>
+            (11) 932123063
+          </div>
         </div>
       </div>
       <footer>
