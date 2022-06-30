@@ -53,3 +53,8 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;       /* roundness of the scroll thumb */
   border: 3px solid rgba(26, 59, 42, 1);  /* creates padding around scroll thumb */
 }
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100vh;
+  }
+}
