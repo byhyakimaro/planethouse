@@ -106,7 +106,7 @@
 .business .images {
   display: flex;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 20px 0;
 }
 .business .images img, .business .images iframe {
   padding: 10px;
