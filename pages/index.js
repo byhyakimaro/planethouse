@@ -106,18 +106,6 @@ export default function Home() {
             <div>Solicite seu orçamento pelo WhastApp</div>
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8 18-8-8 8-8 1.417 1.417L2.833 10l6.584 6.583Z"/></svg>
           </a>
-          <div className={styles.network}>
-            <div className={styles.title}>conheça nossas redes sociais</div>
-            <a href="https://www.facebook.com/planethousemoveisplanejados" target="_blank" rel="noreferrer">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/2560px-Facebook_Logo_%282019%29.svg.png"></img>
-            </a>
-            <a href="https://www.instagram.com/planethousemoveisplanejados" target="_blank" rel="noreferrer">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"></img>
-            </a>
-            <a href="https://twitter.com/PlanetMoveis" target="_blank" rel="noreferrer">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Twitter_logo.svg/1280px-Twitter_logo.svg.png"></img>
-            </a>
-          </div>
         </div>
         <div className={styles.comments}>
           <div className={styles.title}>Satisfação de Nossos Clientes</div>
@@ -139,6 +127,18 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.contact} id="contact">
+          <div className={styles.network}>
+            <div className={styles.title}>conheça nossas redes sociais</div>
+            <a href="https://www.facebook.com/planethousemoveisplanejados" target="_blank" rel="noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/2560px-Facebook_Logo_%282019%29.svg.png"></img>
+            </a>
+            <a href="https://www.instagram.com/planethousemoveisplanejados" target="_blank" rel="noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"></img>
+            </a>
+            <a href="https://twitter.com/PlanetMoveis" target="_blank" rel="noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Twitter_logo.svg/1280px-Twitter_logo.svg.png"></img>
+            </a>
+          </div>
           <div className={styles.title}>Converse diretamente com nossa fabricante</div>
           <div className={styles.description}>
             <strong>Caieiras/Perus - SP</strong>

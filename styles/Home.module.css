@@ -108,24 +108,25 @@
 .business .images img, .business .images iframe {
   padding: 10px;
 }
-.business .network {
+.contact .network {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 10px; 
 }
-.business .network .title {
+.contact .network .title {
   width: 100%;
   font-family: 'Fira Code', monospace;
   font-size: 18px;
   font-weight: bold;
   padding: 2rem 0;
 }
-.business .network img {
+.contact .network img {
   padding: 0 30px;
   width: 180px;
 }
-.business .network img:hover {
+.contact .network img:hover {
   transition: 0.5s;
   filter: grayscale(100%);
   transform: scale(1.2);
