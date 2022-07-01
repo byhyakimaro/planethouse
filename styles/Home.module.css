@@ -211,24 +211,3 @@ footer .details {
   padding: 2rem;
   border-top: 1px solid #fff
 }
-
-@media screen and (max-width: 768px) {
-  .home {
-    width: max-content;
-  }
-  .home svg {
-    left: 100%;
-  }
-  .home .homecontent {
-    font-size: 22px;
-  }
-  .container {
-    width: 100vh;
-  }
-  .comments {
-    width: 100vh;
-  }
-  .content {
-    width: 100vh;
-  }
-}

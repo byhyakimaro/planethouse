@@ -20,7 +20,7 @@ export default function Home() {
     <>  
       <Head>
         <title>Home - Planet House</title>
-        {/* <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" /> */}
+        <meta name="viewport" content="width=800" />
       </Head>
       <div className={styles.navbar} id="navbar">
         <div className={styles.logo}>
