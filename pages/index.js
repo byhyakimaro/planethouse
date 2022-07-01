@@ -88,7 +88,7 @@ export default function Home() {
           <div className={styles.title}>Conheça Nossa Diversidade</div>
           <div className={styles.description}>
             Nossos projetos são milimetricamente projetados para o seu ambiente, utilizamos desenhos 3D de
-            ultima geração para demonstrar para nossos clientes todo o processo, nossa fábrica da possui 
+            ultima geração para demonstrar para nossos clientes todo o processo, nossa fábrica possui 
             mais de <strong>10 anos de experiência</strong> no mercado moveleiro e produz móveis planejados 
             <strong> residenciais e corporativos</strong> para todos os ambientes como closets, dormitórios, 
             cozinhas, áreas de serviços, banheiros, home offices e escritórios.
