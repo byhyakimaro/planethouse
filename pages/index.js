@@ -101,7 +101,7 @@ export default function Home() {
             <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fplanethousemoveisplanejados%2Fvideos%2F266554894820795%2F&show_text=true&width=261&t=0" width="400" height="240"></iframe>
             <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fplanethousemoveisplanejados%2Fvideos%2F521239651983527%2F&show_text=true&width=476&t=0" width="400" height="240"></iframe>
           </div>
-          <a href="https://wa.me/5511932123063" className={styles.budget} target="_blank" rel="noreferrer">
+          <a href="https://wa.me/5511939517330" className={styles.budget} target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m6 18-1.417-1.417L11.167 10 4.583 3.417 6 2l8 8Z"/></svg>
             <div>Solicite seu orçamento pelo WhastApp</div>
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m8 18-8-8 8-8 1.417 1.417L2.833 10l6.584 6.583Z"/></svg>
@@ -144,7 +144,7 @@ export default function Home() {
             <strong>Caieiras/Perus - SP</strong>
           </div>
           <div className={styles.description}>
-            (11) 932123063
+            (11) 939517330
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </footer>
       <div className={styles.buttonWhats}>
-        <a href="https://wa.me/5511932123063" target="_blank" rel="noreferrer"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
+        <a href="https://wa.me/5511939517330" target="_blank" rel="noreferrer"><img src="https://static.whatsapp.net/rsrc.php/yz/r/lOol7j-zq4u.svg"></img></a>
       </div>
     </>
   )
