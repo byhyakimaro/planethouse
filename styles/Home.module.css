@@ -44,7 +44,7 @@
 .home svg {
   fill: white;
   position: absolute;
-  left: calc(50% - 12px);
+  left: calc(50% - 18px);
   bottom: 0;
 }
 .home .homecontent {
