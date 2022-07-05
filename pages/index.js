@@ -95,10 +95,10 @@ export default function Home() {
             cozinhas, áreas de serviços, banheiros, home offices e escritórios.
           </div>
           <div className={styles.images}>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/cozinha.png" width="240" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/sala.png" width="380" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/closet.png" width="240" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/quarto.png" width="380" height="240"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/5176147502449859"><img src="models/cozinha.png" width="240" height="240"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/4283102968420988"><img src="models/sala.png" width="380" height="240"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/4371224472942170"><img src="models/closet.png" width="240" height="240"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/3984002621664359"><img src="models/quarto.png" width="380" height="240"></img></a>
             <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/cozinha2.png" width="240" height="240"></img></a>
             <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/sala2.png" width="380" height="240"></img></a>
           </div>
