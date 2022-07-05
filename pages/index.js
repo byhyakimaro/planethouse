@@ -28,6 +28,11 @@ export default function Home() {
     }
 
     setInterval(carrossel, 1800);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-233565624-1');
   },[]);
 
   return (
@@ -35,6 +40,7 @@ export default function Home() {
       <Head>
         <title>Home - Planet House</title>
         <meta name="viewport" content="width=800" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-233565624-1"></script>
       </Head>
       <div className={styles.navbar} id="navbar">
         <div className={styles.logo}>
