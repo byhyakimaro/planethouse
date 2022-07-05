@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 1;
 }
 
 .navbar a {
@@ -44,7 +45,7 @@
 .home svg {
   fill: white;
   position: absolute;
-  left: 50%;
+  left: calc(50% - 18px);
   bottom: 0;
 }
 .home .homecontent {
