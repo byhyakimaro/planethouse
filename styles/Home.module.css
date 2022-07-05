@@ -105,11 +105,17 @@
   width: 40rem;
 }
 .business .images {
+  width: auto;
+  overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
   margin: 20px 0;
 }
-.business .images img, .business .images iframe {
+.business .images img {
+  width: auto;
+  height: 500px;
+  transform: translateX(0);
+  transition: transform 0.5s;
+  object-fit: cover;
   padding: 10px;
 }
 .contact .network {

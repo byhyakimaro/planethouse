@@ -13,8 +13,22 @@ export default function Home() {
   }
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  });
+
+    const imgs = document.getElementById("images")
+    const img = document.querySelectorAll("#images a img")
+
+    let idx = 0;
+    function carrossel() {
+      idx++;
+
+      if(idx > img.length - 1) {
+        idx = 0;
+      }
+      img.forEach(i => i.setAttribute('style' , `transform:translateX(-${idx * 500}px)`))
+    }
+
+    setInterval(carrossel, 1800);
+  },[]);
 
   return (
     <>  
@@ -94,13 +108,13 @@ export default function Home() {
             <strong> residenciais e corporativos</strong> para todos os ambientes como closets, dormitórios, 
             cozinhas, áreas de serviços, banheiros, home offices e escritórios.
           </div>
-          <div className={styles.images}>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/5176147502449859"><img src="models/cozinha.png" width="240" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/4283102968420988"><img src="models/sala.png" width="380" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/4371224472942170"><img src="models/closet.png" width="240" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/3984002621664359"><img src="models/quarto.png" width="380" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/cozinha2.png" width="240" height="240"></img></a>
-            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/sala2.png" width="380" height="240"></img></a>
+          <div className={styles.images} id="images">
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/5176147502449859"><img src="models/cozinha.png"></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/4283102968420988"><img src="models/sala.png" ></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/4371224472942170"><img src="models/closet.png" ></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/3984002621664359"><img src="models/quarto.png" ></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/cozinha2.png" ></img></a>
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/sala2.png" ></img></a>
           </div>
           <a href="https://wa.me/5511939517330" className={styles.budget} target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m6 18-1.417-1.417L11.167 10 4.583 3.417 6 2l8 8Z"/></svg>
