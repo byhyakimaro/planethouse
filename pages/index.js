@@ -95,12 +95,12 @@ export default function Home() {
             cozinhas, áreas de serviços, banheiros, home offices e escritórios.
           </div>
           <div className={styles.images}>
-            <a href=""><img src="models/cozinha.png" width="240" height="240"></img></a>
-            <a href=""><img src="models/sala.png" width="380" height="240"></img></a>
-            <a href=""><img src="models/closet.png" width="240" height="240"></img></a>
-            <a href=""><img src="models/quarto.png" width="380" height="240"></img></a>
-            <a href=""><img src="models/cozinha2.png" width="240" height="240"></img></a>
-            <a href=""><img src="models/sala2.png" width="380" height="240"></img></a>
+            <a href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/cozinha.png" width="240" height="240"></img></a>
+            <a href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/sala.png" width="380" height="240"></img></a>
+            <a href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/closet.png" width="240" height="240"></img></a>
+            <a href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/quarto.png" width="380" height="240"></img></a>
+            <a href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/cozinha2.png" width="240" height="240"></img></a>
+            <a href="https://www.facebook.com/planethousemoveisplanejados/photos/?ref=page_internal"><img src="models/sala2.png" width="380" height="240"></img></a>
           </div>
           <a href="https://wa.me/5511939517330" className={styles.budget} target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"><path d="m6 18-1.417-1.417L11.167 10 4.583 3.417 6 2l8 8Z"/></svg>
