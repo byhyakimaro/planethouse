@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <>  
       <Head>
-        <title>Home - Planet House</title>
+        <title>Planet House - Móveis Planejados</title>
         <meta name="viewport" content="width=800" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-233565624-1"></script>
       </Head>
