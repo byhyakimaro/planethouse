@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto de Website em Next.js para Empresa de Marcenaria
 
-## Getting Started
+## Descrição do Projeto
 
-First, run the development server:
+Este projeto consistiu no desenvolvimento de um website responsivo utilizando a tecnologia Next.js para uma empresa de marcenaria local. A empresa, dedicada à criação artesanal de móveis de alta qualidade, contratou meus serviços para criar uma presença online que refletisse sua estética e profissionalismo.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js:** Escolhi o Next.js devido à sua velocidade e eficiência, garantindo uma experiência de usuário rápida e suave.
+- **React:** Utilizei React para a construção dos componentes do site, proporcionando uma interface dinâmica e interativa.
+- **CSS (com Styled-components):** Implementei estilos customizados utilizando a biblioteca Styled-components para garantir um design elegante e coeso em toda a plataforma.
+- **Conteúdo Estático e Dinâmico:** Integrei conteúdo estático para informações permanentes da empresa e conteúdo dinâmico para galeria de produtos e depoimentos de clientes.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Funcionalidades Principais
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. **Página Inicial:** Apresentação da empresa, destacando sua expertise em marcenaria e valores fundamentais.
+2. **Galeria de Produtos:** Exibição dos móveis artesanais, com descrições detalhadas e imagens de alta qualidade.
+3. **Depoimentos:** Seção contendo depoimentos reais de clientes satisfeitos, adicionando credibilidade à marca.
+4. **Formulário de Contato:** Implementação de um formulário interativo para facilitar o contato dos clientes com a empresa.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Como Executar o Projeto Localmente
 
-## Learn More
+Para executar este projeto localmente, siga estas etapas:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone o repositório:**
+   ```
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Instale as dependências:**
+   ```
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Inicie o servidor de desenvolvimento:**
+   ```
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Acesse o Website:**
+   Abra seu navegador e visite `http://localhost:3000` para visualizar o website em sua máquina local.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuição
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Se você encontrar problemas ou tiver sugestões para melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Todas as contribuições são bem-vindas!
+
+---
+
+Espero que esse README.md seja útil para apresentar seu projeto de forma clara e concisa. Lembre-se de personalizá-lo conforme necessário para refletir os detalhes específicos do seu projeto e da empresa de marcenaria. Boa sorte!
