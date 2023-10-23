@@ -41,6 +41,8 @@ Para executar este projeto localmente, siga estas etapas:
 4. **Acesse o Website:**
    Abra seu navegador e visite `http://localhost:3000` para visualizar o website em sua máquina local.
 
+## Disponivel tambem em: https://planethouse.vercel.app 
+
 ## Contribuição
 
 Se você encontrar problemas ou tiver sugestões para melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Todas as contribuições são bem-vindas!
