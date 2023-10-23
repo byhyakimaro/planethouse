@@ -24,8 +24,8 @@ Para executar este projeto localmente, siga estas etapas:
 
 1. **Clone o repositório:**
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/byhyakimaro/planethouse.git
+   cd planethouse
    ```
 
 2. **Instale as dependências:**
